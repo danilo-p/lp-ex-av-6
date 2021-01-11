@@ -1,0 +1,7 @@
+a) Em Java, todas as exceções exceto as que estendem Error e RuntimeException são checadas pelo compilador. Para declarar uma exceção checada pelo compilador, basta criar uma class que estende de Exception.
+
+b) A vantagem de Java adotar esta abordagem é a detecção rápida de erros de implementação causados por exceções não tratadas. Tais erros poderiam terminar a execução do programa de forma não intencional.
+
+c) Java provê exceções como ClassCastException por que há falhas no programa que não são recuperáveis. Por exemplo, a exceção citada indica um erro de programação cometido pelo programador, e não um erro cometido pela pessoa que utililza o programa.
+
+d) Uma desvantagem das exceções checadas estaticamente é a má utilização deste recurso pelos programadores, que adicionam blocos try-catch para capturar exeções e ignorá-las. O lançamento destas exceções para o usuário do programa seria de melhor proveito, uma vez que a falha seria devidamente comunicada.

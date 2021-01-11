@@ -1,0 +1,10 @@
+O valor de Z é 30, por que a função Sigma está implementando um somatório, que
+varia o valor de k começando em n e terminando em m, avaliando o valor de u a
+cada variação de k. 30 é a soma dos valores de u a cada avaliação, sendo:
+
+- Para k = 1, a avaliação de u é 1
+- Para k = 2, a avaliação de u é 4
+- Para k = 3, a avaliação de u é 9
+- Para k = 4, a avaliação de u é 16
+
+Somando os valores avaliados para u, 1 + 4 + 9 + 16 = 30.

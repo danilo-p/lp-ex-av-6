@@ -1,0 +1,9 @@
+a) m1.i é 4, e m2.i é 4
+
+b) m1.i é 3, e m2.i é 3
+
+c) m1.i é 4, e m2.i é 4
+
+d) Java adota passagem de parâmetros por valor para tipos primitivos.
+
+d) Java adota passagem de parâmetros por referência para objetos.
